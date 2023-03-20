@@ -65,7 +65,7 @@ addK = Intenger that added to Kneedle's K to prevent underfitting.
        This will use K+addK probes to estimate missing values of a gene.
 return_probes = if true, 'target-table and mgcp' will be returned else 'target' will be returned.
 ```
-## Parameters
+## Returns
 ``` r
 * target : table with estimated values of missing genes that are not present in original target table.
             matrix shape will be (n x k).
