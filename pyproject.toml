@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools", #>=54
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'pyLLS'
+version = '0.2'
+readme = 'README.md'
+description = 'Missing value imputation with the local least square algorithm in python'
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tqdm",
+    "kneed"
+]
+requires-python = ">=3.7"
+authors = [
+    {name="Sejin Oh", email="agicic@naver.com"},
+]
+keywords = [
+    "missing value imputation",
+    "local least square",
+]
+
+[project.urls]
+Homepage = "https://github.com/osj118/pyLLS"
