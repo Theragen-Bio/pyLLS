@@ -7,7 +7,7 @@ Our pyLLS offers more options and is significantly faster than LLS in R.<br>
 pyLLS is subjected to the MIT License, which guarantees free and commercial use for industry as well as the research community.<br>
 
 Please report bugs to Sejin Oh, at <agicic[at]naver.com> or at
-<https://github.com/osj118/pyLLS/issues>.
+<https://github.com/Theragen-Bio/pyLLS/issues>.
 
 ## Installation
 
