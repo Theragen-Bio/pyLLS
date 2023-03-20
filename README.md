@@ -6,8 +6,8 @@ We developed pyLLS by implementing the LLS into python framework.<br>
 Our pyLLS offers more options and is significantly faster than LLS in R.<br>
 pyLLS is subjected to the MIT License, which guarantees free and commercial use for industry as well as the research community.<br>
 
-Please report bugs to Sejin Oh, at <agicic[at]naver.com> or at
-<https://github.com/osj118/pyLLS/issues>.
+Please report bugs to Sejin Oh, at <sejin.oh<at>theragenbio.com> or at
+<https://github.com/Theragen-Bio/pyLLS/issues>.
 
 ## Installation
 
