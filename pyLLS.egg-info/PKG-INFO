@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: pyLLS
-Version: 0.2
+Version: 0.3
 Summary: Missing value imputation with the local least square algorithm in python
 Home-page: https://github.com/osj118/pyLLS
 Author: Sejin Oh
 Author-email: Sejin Oh <agicic@naver.com>
 Maintainer: Sejin Oh
-License: MIT License
+License: MIT
 Project-URL: Homepage, https://github.com/osj118/pyLLS
 Keywords: missing value imputation,local least square
 Classifier: Intended Audience :: Science/Research
@@ -24,8 +24,8 @@ We developed pyLLS by implementing the LLS into python framework.<br>
 Our pyLLS offers more options and is significantly faster than LLS in R.<br>
 pyLLS is subjected to the MIT License, which guarantees free and commercial use for industry as well as the research community.<br>
 
-Please report bugs to Sejin Oh, at <agicic[at]naver.com> or at
-<https://github.com/osj118/pyLLS/issues>.
+Please report bugs to Sejin Oh, at <sejin.oh<at>theragenbio.com> or at
+<https://github.com/Theragen-Bio/pyLLS/issues>.
 
 ## Installation
 
@@ -83,7 +83,7 @@ addK = Intenger that added to Kneedle's K to prevent underfitting.
        This will use K+addK probes to estimate missing values of a gene.
 return_probes = if true, 'target-table and mgcp' will be returned else 'target' will be returned.
 ```
-## Parameters
+## Returns
 ``` r
 * target : table with estimated values of missing genes that are not present in original target table.
             matrix shape will be (n x k).

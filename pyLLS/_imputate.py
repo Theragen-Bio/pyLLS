@@ -213,7 +213,7 @@ def impute_missing_gene(
             ''')
         return
     if verbose==False:
-        sys.stdout=open(os.devnull,'w')
+        sys.stdout=open('/dev/null','w')
     # Idenfitying missing genes
     missing_genes=list(set(ref.index)-set(target.index))
     # Finding correlative neighbors for each target
