@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyLLS
-Version: 0.4
+Version: 0.5
 Summary: Missing value imputation with the local least square algorithm in python
 Home-page: https://github.com/osj118/pyLLS
 Author: Sejin Oh

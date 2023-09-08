@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = 'pyLLS'
-version = '0.4'
+version = '0.5'
 readme = 'README.md'
 description = 'Missing value imputation with the local least square algorithm in python'
 dependencies = [
@@ -15,10 +15,7 @@ dependencies = [
     "pandas",
     "scikit-learn",
     "tqdm",
-    "kneed",
-    "os",
-    "warnings",
-    "sys"
+    "kneed"
 ]
 requires-python = ">=3.7"
 authors = [

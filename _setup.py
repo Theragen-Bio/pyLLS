@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyLLS',
-    version='0.4',
+    version='0.5',
     license='MIT',
     author="Sejin Oh",
     author_email='agicic@naver.com',
@@ -16,10 +16,7 @@ setup(
           'pandas',
           'numpy',
           'kneed',
-          'tqdm',
-          'os',
-          'warnings',
-          'sys'
+          'tqdm'
       ],
     python_requires='>=3.7',
 
