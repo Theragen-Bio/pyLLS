@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyLLS',
-    version='0.3',
+    version='0.4',
     license='MIT',
     author="Sejin Oh",
     author_email='agicic@naver.com',

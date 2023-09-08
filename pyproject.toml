@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = 'pyLLS'
-version = '0.3'
+version = '0.4'
 readme = 'README.md'
 description = 'Missing value imputation with the local least square algorithm in python'
 dependencies = [
