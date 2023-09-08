@@ -1,5 +1,5 @@
-scikit-learn
-pandas
 numpy
-kneed
+pandas
+scikit-learn
 tqdm
+kneed

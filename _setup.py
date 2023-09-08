@@ -8,7 +8,7 @@ setup(
     author="Sejin Oh",
     author_email='agicic@naver.com',
     packages=find_packages('pyLLS'),
-    package_dir={'': 'pyLLS'},
+    #package_dir={'': 'pyLLS'},
     url='https://github.com/osj118/pyLLS',
     keywords='missing value imputation',
     install_requires=[
@@ -16,7 +16,11 @@ setup(
           'pandas',
           'numpy',
           'kneed',
-          'tqdm'
+          'tqdm',
+          'os',
+          'warnings',
+          'sys'
       ],
+    python_requires='>=3.7',
 
 )
